@@ -214,3 +214,152 @@ Applied **Z-tests for proportions** to validate observed differences are statist
 
 **Libraries:**
 ```python
+# Data Processing
+pandas, numpy
+
+# Visualization
+matplotlib, seaborn
+
+# Machine Learning
+scikit-learn (GradientBoostingClassifier, RandomForest, LogisticRegression, DecisionTree, KNN)
+imbalanced-learn (SMOTE)
+
+# Statistical Testing
+scipy.stats (Z-tests)
+statsmodels
+
+# Model Persistence
+pickle
+```
+
+---
+
+## Project Structure
+```
+final-project-customer-churn-prediction/
+│
+├── data/
+│   └── raw/
+│       └── telco_customer_churn.csv          # Original dataset
+│
+├── notebooks/
+│   └── 01_data_exploration.ipynb             # Complete analysis & modeling
+│
+├── presentation/
+│   └── Customer_churn_prediction_Presentation.pdf
+│
+├── visualizations/
+│   └── statistical_validation.png            # Z-test results chart
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Installation
+
+### Prerequisites
+```bash
+Python 3.8 or higher
+pip package manager
+```
+
+### Setup
+```bash
+# Clone repository
+git clone https://github.com/Axoudouxou/final-project-customer-churn-prediction.git
+cd final-project-customer-churn-prediction
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook notebooks/01_data_exploration.ipynb
+```
+
+### Requirements (requirements.txt)
+```txt
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+imbalanced-learn>=0.8.0
+jupyter>=1.0.0
+scipy>=1.7.0
+statsmodels>=0.13.0
+```
+
+---
+
+## Key Takeaways
+
+### What Worked
+- **SMOTE** dramatically improved recall (+48% vs class weights)
+- **Statistical validation** proved findings weren't due to chance (99.99% confidence)
+- **Systematic comparison** revealed Gradient Boosting as optimal algorithm
+- **Feature engineering** (VIF analysis, total_services) improved model interpretability
+- **Business-first approach** (prioritizing recall over precision) aligned with real-world cost structure
+
+### Lessons Learned
+1. **Class balancing is critical** for imbalanced datasets
+2. **Statistical rigor matters** - validate before modeling
+3. **Domain knowledge** guides metric selection (recall > accuracy for churn)
+4. **Model generalization** must be proven (validation vs test comparison)
+5. **Actionable insights** trump model complexity
+
+---
+
+## Future Enhancements
+
+**Technical:**
+- [ ] Deploy as REST API (Flask/FastAPI)
+- [ ] Real-time scoring pipeline
+- [ ] Automated retraining (quarterly)
+- [ ] Ensemble stacking for 1-2% recall improvement
+- [ ] SHAP values for individual prediction explanations
+
+**Business:**
+- [ ] A/B test retention strategies
+- [ ] Build interactive Tableau/PowerBI dashboard
+- [ ] Segment-specific models (fiber vs DSL, etc.)
+- [ ] Cost-sensitive learning to minimize business impact
+- [ ] Integrate with CRM for automated campaign triggers
+
+---
+
+## Author
+
+**Carmelina MBESSO**  
+*Data Scientist | AI Developer*
+
+Combining business strategy with technical expertise to drive data-driven decision making.
+
+**Background:**
+- M.Sc. International Business Marketing (ISC Paris)
+- Data Science (Ironhack Bootcamp)
+- Experience: CRM & Marketing Automation (Forvis Mazars, BNP Paribas)
+
+**Connect:**
+- LinkedIn: [linkedin.com/in/carmelina-mbesso](https://linkedin.com/in/yourprofile)
+- GitHub: [@Axoudouxou](https://github.com/Axoudouxou)
+- Email: axmbesso.am@gmail.com
+---
+
+## Acknowledgments
+
+- **Ironhack** for comprehensive Data Analytics curriculum
+- **IBM** for providing the sample dataset
+- **Ironhack instructors** for guidance on systematic model evaluation
+
+---
+
+## License
+
+This project is developed for educational purposes as part of the Ironhack Data Analytics Bootcamp final project.
