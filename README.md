@@ -347,7 +347,7 @@ Combining business strategy with technical expertise to drive data-driven decisi
 - Experience: CRM & Marketing Automation (Forvis Mazars, BNP Paribas)
 
 **Connect:**
-- LinkedIn: [linkedin.com/in/carmelina-mbesso](https://linkedin.com/in/yourprofile)
+- LinkedIn: [linkedin.com/in/carmelina-axelle-mbesso](https://www.linkedin.com/in/carmelina-axelle-mbesso-1640b5205/)
 - GitHub: [@Axoudouxou](https://github.com/Axoudouxou)
 - Email: axmbesso.am@gmail.com
 ---
