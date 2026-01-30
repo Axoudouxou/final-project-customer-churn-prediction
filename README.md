@@ -33,7 +33,7 @@ Predicting customer churn in telecommunications using advanced ML techniques and
 
 ## Dataset
 
-**Source:** [IBM Sample Data Sets - Telco Customer Churn](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
+**Source:** [Kaggle - Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 **Size:** 7,043 customers × 21 features
 
