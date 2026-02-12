@@ -205,31 +205,10 @@ Data Analytics Bootcamp - Ironhack
 RNCP Level 6 Certification
 
 - LinkedIn: [linkedin.com/in/carmelinambesso](https://linkedin.com/in/carmelinambesso)
-- Email: carmelina.mbesso@email.com
+- Email: axmbesso.am@gmail.com
 
 ---
 
 ## License
 
 This project was developed as part of the RNCP Data Analytics certification (February 2026).
-
-**2. .gitignore**
-```
-# Python
-*.pyc
-__pycache__/
-*.pkl
-*.joblib
-
-# Data
-data/raw/*.csv
-*.db
-*.sqlite
-
-# Environment
-.env
-venv/
-.DS_Store
-
-# Notebooks
-.ipynb_checkpoints/
