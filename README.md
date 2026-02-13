@@ -73,6 +73,7 @@ CSV/API/Scraping → Python ETL → Data Cleaning → Feature Engineering
 - Performance: 3.5× faster queries, 65% less data scanned
 
 See: [SQL Scripts](./sql/)
+Big query :[BIG QUERY](https://console.cloud.google.com/bigquery?organizationId=0&project=telco-churn-analysis-486921&ws=!1m5!1m4!16m3!1m1!1stelco-churn-analysis-486921!3e12)
 
 ---
 
@@ -129,7 +130,7 @@ See: [API Documentation](./api/)
 - API response time: <1 second
 
 **Visualizations:**
-- [Tableau Dashboard](https://public.tableau.com/app/profile/carmelina.mbesso)
+- [Tableau Dashboard](https://public.tableau.com/app/profile/carmelina.mbesso/viz/Classeur1_17708052695380/STORY)
 
 ---
 
@@ -173,10 +174,10 @@ python app.py
 
 ## Documentation
 
-- [RNCP Report](./docs/Dossier_RNCP_Carmelina_Mbesso.pdf)
+- [RNCP Report](./docs/Dossier%20RNCP%20Carmelina%20Mbesso.pdf)
 - [Data Dictionary](./docs/Telco_Data_Dictionary.pdf)
+- [Presentation Slides](./docs/CUSTOMER%20CHURN%20PREDICTION.pdf)
 - [ERD Diagram](./docs/ERD_diagram.png)
-- [Presentation Slides](./presentation/Telco_Churn_Presentation.pptx)
 
 ---
 
