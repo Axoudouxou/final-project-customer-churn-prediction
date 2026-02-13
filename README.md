@@ -205,7 +205,7 @@ python app.py
 Data Analytics Bootcamp - Ironhack  
 RNCP Level 6 Certification
 
-- LinkedIn: [linkedin.com/in/carmelinambesso](https://linkedin.com/in/carmelinambesso)
+- LinkedIn: [linkedin.com/in/carmelinambesso](https://www.linkedin.com/in/carmelina-axelle-mbesso-1640b5205/)
 - Email: axmbesso.am@gmail.com
 
 ---
